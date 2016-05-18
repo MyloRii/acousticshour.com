@@ -1,0 +1,231 @@
+/**************************
+WIDTH
+**************************/
+
+/*Phones to Tablets*/
+@media only screen and (min-width: 481px) {
+
+	/**************************
+	PAGE: HOME
+	**************************/
+
+	.profile-photo {
+		float: left;
+		margin-right: 5%;
+	}
+
+	/**************************
+	PAGE: TUTORIALS
+	**************************/
+
+	/* table */
+
+	table {
+		font-size: 100%;
+		margin-bottom: 15em;
+	}
+
+	table td a img {
+		width: 32px;
+		height: 32px;
+	}
+
+	/**************************
+	PAGE: SONGS
+	**************************/
+
+	#song-description{
+		text-align: center;
+	}
+
+	#song-video iframe {
+		height: 540px;
+	}
+
+        #chords {
+		text-align: center;
+	}
+
+	#chords ul {
+		padding-left: 0;
+	}
+
+	#chords img {
+		padding-right: 0.625em;
+		padding-bottom: 0.625em;
+	}
+
+	/**************************
+	PAGE: FAQ
+	**************************/
+
+	.col {
+		float: left;
+	}
+
+	.faq1 {
+		width: 50%;
+	}
+
+	.faq2 {
+		width: 45%;
+		margin-left: 5%;
+	}
+
+
+
+	/**************************
+	FOOTER
+	**************************/
+
+	footer {
+		padding-top: 3.75em;
+		padding-bottom: 3.75em;
+	}
+
+	#social-icons a {
+	display: inline-block;
+	}
+	
+	#links {
+		display: block;
+	}
+
+	#contact-for-mobile {
+		display: none;
+	}
+}
+
+
+/*Tablets to Desktop*/
+@media only screen and (min-width: 769px) {
+
+	/**************************
+	HEADING
+	**************************/
+
+	#header {
+		overflow: hidden;
+		padding: 5px 0 20px 0;
+	}
+
+	nav {
+		float: right;
+		background: none;
+		font-size: 1.125em;
+		text-align: right;
+		width: 45%
+	}
+
+	#logo {
+		float: left;
+		text-align: left;
+		width: 45%;
+		padding-top: 0.9375em;
+	}
+
+	#logo img {
+		float: left;
+	}
+
+	#logo h1 {
+		margin-top: 5px;
+	}
+
+	#logo h1,
+	#logo h2 {
+		padding-left: 100px;
+	}
+
+	h2 {
+		font-size: 1.095em;
+	}
+
+	#circle  {
+		width: 30%;
+	}
+
+	/**************************
+	PAGE: HOME
+	**************************/
+
+	#about h1 {
+		margin: 1em 38% 2em;
+	}
+
+	#how-it-works h1 {
+		margin: 0 38% 1em 38%;
+	}
+
+	/**************************
+	PAGE: SONGS
+	**************************/
+
+	#song-description {
+		width: 20%;
+		float: left;
+		text-align: left;
+	}
+
+	#song-description p {
+		text-align: left;
+	}
+
+	#song-video {
+		width: 80%;
+		float: right;
+	}
+
+	#song-video iframe {
+		height: 540px;
+	}
+
+        #chords {
+		text-align: left;
+	}
+
+	/**************************
+	PAGE: FAQ
+	**************************/
+
+	.faq1 {
+		width: 28.3333333%;
+		float: left;
+		margin-right: 3.75%;
+	}
+
+	.faq2 {
+		display: block;
+		width: 28.3333333%;
+		margin-right: 3.75%;
+		margin-left: 3.75%;
+	}
+
+	.faq3 {
+		width: 28.3333333%;
+		margin-left: 3.75%;
+	}
+
+	/**************************
+	FOOTER
+	**************************/
+
+	#arrow-up {
+		display: block;
+	}
+
+}
+
+
+/**************************
+HEIGHT
+**************************/
+
+@media only screen and (max-height: 900px) and (min-width: 481px) {
+
+	#circle  {
+	padding-top: 12%;
+	padding-bottom: 13%;
+	width: 25%;
+	}
+}

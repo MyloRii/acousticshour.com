@@ -1,0 +1,531 @@
+/**************************
+GENERAL
+**************************/
+
+body {
+	font-family: 'Ek Mukta', sans-serif;
+	font-size: 1em;
+	line-height: 150%;
+}
+
+.wrapper {
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+
+a {
+	text-decoration: none;
+	outline: none !important;
+}
+
+iframe {
+	margin-top: 3.125em;
+	max-width: 100%;
+	width: 100%;
+}
+
+img {
+	max-width: 100%;
+}
+
+svg { 
+	-webkit-background-clip: text;
+}
+
+h1 {
+	font-size: 1.75em;
+	font-weight: 400;
+	line-height: 1.0em;
+}
+
+h2 {
+	font-size: 0.75em;
+	margin: -0.9375em 0 0;
+	font-weight: 300;
+}
+
+h3 {
+	margin: 0 0 1em 0;
+	font-weight: 200;
+	text-transform: uppercase;
+}
+
+p {
+	font-weight: 200;
+	text-align: justify;
+}
+
+sup {
+	color: red;
+	font-size: 1em;
+}
+
+
+
+/**************************
+PAGE: HOME
+**************************/
+
+/**************************
+NAVIGATION
+**************************/
+nav {
+	text-align: center;
+	padding: 0.625em 0;
+	margin: 1.25em 0 0;
+	text-transform: uppercase;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;	
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	font-weight: 200;
+	padding: 0.9375em 0.625em;
+}
+
+nav a.selected, nav a:hover {
+	border-bottom: 1px solid #30231d;
+	padding-bottom: 3px; 
+}
+
+
+
+/**************************
+HEADING
+**************************/
+header {
+	margin: 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+}
+
+#home {
+	width: 100%;
+	height: 100%;
+	background: url('../background/guitar2.jpg') no-repeat center;
+	background-size: cover;
+}
+
+#logo img {
+	display: block;
+	margin: 0 auto;
+}
+
+#logo {
+	text-align: center;
+	margin: 0;
+}
+
+#circle  {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 18.5%;
+	padding-bottom: 18.5%;
+	width: 60%;
+}
+
+#circle img {
+	position: relative;
+	left: -350%;
+}
+
+#home h4 {
+	text-align: center;
+	font-weight: 200;
+}
+
+.arrow-down img {
+	position: absolute;
+    top: 97%;
+    left: 50%;
+    width: 48px;
+    height: 48px;
+    margin-top: -24px; /* Half the height */
+    margin-left: -24px; /* Half the width */
+}
+
+
+
+/* About me */
+
+#about {
+	padding-top: 1.875em;
+	padding-bottom: 5em;
+	width: 100%;
+	overflow: hidden;
+}
+
+#about h1 {
+	border: 1px solid #574742;
+	padding: 0.9375em;
+	text-align: center;
+	text-transform: uppercase;
+	min-width: 10%;
+}
+
+.profile-photo {
+	display: block;
+	margin: 0 auto;
+}
+
+/* donations */
+
+#donations img {
+	max-width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+        padding-left: 2.5em;
+}
+
+#donations p {
+	text-align: center;
+	margin-top: 0;
+}
+
+/* How it works */
+
+#how-it-works {
+	padding-top: 1.875em;
+	padding-bottom: 5em;
+	width: 100%;
+	overflow: hidden;
+}
+
+#how-it-works h1 {
+	border: 1px solid #574742;
+	padding: 0.9375em;
+	text-align: center;
+	text-transform: uppercase;
+	min-width: 10%;
+}
+
+
+
+/**************************
+PAGE: TUTORIALS
+**************************/
+
+/* table */
+
+table {
+  max-width: 100%;
+  margin: 5.75em auto 3.75em;
+  width: 100%;
+  font-size: 75%;
+}
+
+table td a img {
+	display: block;
+	width: 16px;
+	height: 16px;
+	padding-left: 0.25em;
+}
+
+thead th {
+  font-weight: 300;
+  padding: 2%;
+}
+
+tr {
+  margin-bottom: 5px;
+}
+
+th, td {
+  text-align: left;
+  padding: 2%;
+  font-weight: 300;
+}
+
+
+
+/**************************
+PAGE: SONGS
+**************************/
+
+#song-description {
+	margin-top: 3.125em;
+	text-align: center;
+	}
+
+#song-description a:hover {
+	border-bottom: 1px solid #f6f1ed;
+	padding-bottom: 3px; 
+}
+
+#song-description p {
+	text-align: center;
+}
+
+#song-video iframe {
+	height: 200px;
+	margin-bottom: 3.125em;
+}
+
+#chords li {
+	display: inline;
+}
+
+#chords img {
+	height: 150px;
+	width: 100px;
+}
+
+
+
+/**************************
+PAGE: FAQ
+**************************/
+
+.col {
+	margin-top: 3.875em;
+	margin-bottom: 3.75em;
+}
+
+
+
+/**************************
+FOOTER
+**************************/
+
+footer {
+	width: 100%;
+	font-size: 0.75em;
+	clear: both;
+	padding: 1.75em 0 1.75em;
+}
+
+/* social icons */
+
+#social-icons a {
+	display: none;
+    width: 44px;
+    height: 44px;
+    margin: 0.625em;
+    vertical-align: middle;
+    -o-transition: opacity 0.2s 0 ease;
+    -moz-transition: opacity 0.2s 0 ease;
+    -webkit-transition: opacity 0.2s 0 ease;
+    -ms-transition: opacity 0.2s 0 ease;
+}
+
+#social-icons a.facebook { 
+	background: url(../icons/facebook3.png) left top no-repeat;
+}
+
+#social-icons a.youtube { 
+	background: url(../icons/youtube3.png) left top no-repeat;
+}
+
+#social-icons a.instagram { 
+	background: url(../icons/instagram3.png) left top no-repeat;
+}
+
+#social-icons a.soundcloud { 
+	background: url(../icons/soundcloud3.png) left top no-repeat;
+}
+
+#social-icons a:hover {
+	background-position: left -44px;
+}
+
+
+#social-icons ul{
+	text-align: center;
+	padding: 0;
+}
+
+
+#social-icons li {
+	display: inline;
+	list-style: none;
+}
+
+/* links */
+
+#links {
+	display: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 1.5em;
+	padding-right: 2.5em;
+}
+
+#links li {
+	display: inline;
+}
+
+#contact-for-mobile {
+	display: block;
+}
+
+#contact-for-mobile a {
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 1em;
+}
+
+#arrow-up img {
+	max-width: 100%;
+	display: block;
+        height: 48px;
+        width: 48px;
+	margin-left: auto;
+	padding: 0 1.875em 0.625em 0;
+}
+
+#arrow-up {
+	display: none;
+}
+
+#arrow-up-no {
+		display: none;
+}
+
+#copyright {
+	margin: 0;
+	padding: 0px 0;
+	font-size: 0.875em;
+	text-align: left;
+	text-transform: uppercase;
+	clear: both;
+}
+
+
+
+/**************************
+COLORS
+**************************/
+
+/* COLOR SCHEME 
+
+#f6f1ed - MILK WHITE
+#b5a397 - BEIJE
+#6a5750 - BROWWN LIGHT
+#574742 - BROWN
+#30231d - BROWN DARK
+
+*/
+
+/* general colors */
+
+body {
+	background-color: #574742;
+	color: #574742;
+}
+
+a {
+	color: #b5a397;
+}
+
+#links a,
+#links li {
+	color: #b5a397;
+}
+
+/* Div's colors */
+
+#about {
+	background-color: #f6f1ed;
+}
+
+#about a {
+	font-size: 1.5em;
+	font-weight: 400;
+}
+
+#how-it-works {
+	background-color: #f6f1ed;
+}
+
+footer {
+	background-color: #30231d;
+	color: #f6f1ed;
+}
+
+#copyright-background {
+	background-color: black;
+	color: #f6f1ed;
+}
+
+/* header colors */
+
+#header {
+	background: #f6f1ed;
+}
+
+#logo h1,
+#logo h2 {
+	color: #30231d;
+}
+
+nav ul li a {
+	color: #30231d; 
+}
+
+nav a, nav a:visited {
+	color: #30231d;
+}
+
+/* table colors */
+
+thead th {
+	background: #f6f1ed;
+  	color: #30231d;
+  	border-bottom: 5px solid #574742;
+}
+
+tr {
+	background: #30231d;
+        border-bottom: 5px solid #574742;
+	color: #f6f1ed;
+        transition: background-color 0.2s ease;
+}
+
+tbody tr:hover {
+	color: #30231d;
+	background-color: #b5a397;
+}
+
+/* contact info colors */
+
+.contact-info a {
+	color: #f6f1ed;
+}
+
+/* songs colors */
+
+#song-description {
+	color: #f6f1ed; 
+}
+
+
+/* faq colors */
+
+#global-faq h1,
+#global-faq p {
+	color: #f6f1ed;
+}
+
+/* footer colors */
+
+#links a:hover,
+#contact-for-mobile a:hover {
+	color: #f6f1ed;
+}
+
+#arrow-up {
+	background-color: #30231d;
+}

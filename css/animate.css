@@ -1,0 +1,67 @@
+/**************************
+ANIMATION
+**************************/
+
+/* Fade in */
+
+.fadein {
+-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+-moz-animation: fadein 2s; /* Firefox < 16 */
+-ms-animation: fadein 2s; /* Internet Explorer */
+-o-animation: fadein 2s; /* Opera < 12.1 */
+animation: fadein 2s;
+}
+
+/*Circle roll*/
+
+#circle img {
+	-webkit-animation: circle-roll 0.9s ease-out forwards;
+        -moz-animation: circle-roll 0.9s ease-out forwards;
+        -ms-animation: circle-roll 0.9s ease-out forwards;
+        -o-animation: circle-roll 0.9s ease-out forwards;
+        animation: circle-roll 0.9s ease-out forwards;
+}
+
+/**************************
+KEYFRAMES
+**************************/
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@keyframes circle-roll {
+	100% {left: 0%; transform: rotate(360deg);}
+}
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-moz-keyframes circle-roll {
+	100% {left: 0%; -moz-transform: rotate(360deg);}
+}
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-webkit-keyframes circle-roll {
+	100% {left: 0%; -webkit-transform: rotate(360deg);}
+}
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-ms-keyframes circle-roll {
+	100% {left: 0%; -ms-transform: rotate(360deg);}
+}
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-o-keyframes circle-roll {
+	100% {left: 0%; -o-transform: rotate(360deg);}
+}
