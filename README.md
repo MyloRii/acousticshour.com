@@ -1,2 +1,2 @@
 # acousticshour
-Repository for my own website
+This is a repository for my own website made from scratch where I teach people how to master guitar by playing favorite songs. It is build using HTML, CSS, PHP, JavaScript and is database-driven, dynamic and fully responsive. All right reserved. (c) Andrii Shumylo 2016
